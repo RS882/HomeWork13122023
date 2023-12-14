@@ -16,4 +16,7 @@ public class Vehicle {
     public int getYear() {
         return year;
     }
+    public void displayInfo(){
+        System.out.printf("Brand : %s Year : %d",this.brand,this.year);
+    }
 }
