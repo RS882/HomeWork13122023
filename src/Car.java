@@ -15,4 +15,9 @@ public class Car extends Vehicle {
         return String.format("Brand : %s Model : %s Year : %d%n",
         this.getBrand(),this.getModel(), this.getYear());
     }
+
+    @Override
+    public void displayInfo() {
+        System.out.println(this);
+    }
 }
